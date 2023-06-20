@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AR.js 3D Text</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.2.0/aframe/build/aframe-ar.js"></script>
+</head>
+<body>
+  <a-scene embedded arjs>
+    <a-marker preset="hiro">
+      <a-entity id="textContainer"></a-entity>
+    </a-marker>
+    <a-entity camera></a-entity>
+  </a-scene>
+  <script src="script.js"></script>
+</body>
+</html>
+
